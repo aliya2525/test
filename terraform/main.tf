@@ -1,5 +1,5 @@
 resource "google_project" "my_test_project" {
-  name       = "my_test_project"
+  name       = "my_project"
   project_id = "252830"
   }
 
