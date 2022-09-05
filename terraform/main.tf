@@ -1,9 +1,9 @@
-resource "google_project" "my_test_project" {
-  name       = "my_project"
-  project_id = "252830"
+resource "google_project" "my_project" {
+  name       = "My Project"
+  project_id = "2232425"
   }
 
 resource "google_app_engine_application" "app" {
-  project     = google_project.my_test_project.252830
+  project     = google_project.my_project.232425
   location_id = "us-central"
 }
